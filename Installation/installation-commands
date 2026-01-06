@@ -24,6 +24,7 @@ ansible all -m ping - check ansible is working --- ansible -m ping all -i ./host
  ansible -m ping all -i ./host
 
 
+ sudo chown -R ansadmin:ansadmin /etc/ansible-----when in nano is says error message and not accepting any changes then we can run this command
 
 
 Ansible Worker node as root user
