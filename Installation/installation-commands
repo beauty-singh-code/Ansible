@@ -20,7 +20,10 @@ cd .ssh - check the keys generated
 ssh-copy-id ansadmin@172.31.25.99 - Copy public key to ansible worker node
 ssh 'ansadmin@172.31.25.99' - check if ssh connected
 
-ansible all -m ping - check ansible is working ---
+ansible all -m ping - check ansible is working --- ansible -m ping all -i ./host
+ ansible -m ping all -i ./host
+
+
 
 
 Ansible Worker node as root user
